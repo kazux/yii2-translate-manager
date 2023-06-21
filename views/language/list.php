@@ -5,7 +5,7 @@
  * @since 1.0
  */
 use yii\grid\GridView;
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use lajax\translatemanager\models\Language;
 use yii\widgets\Pjax;
 

@@ -5,10 +5,10 @@
  *
  * @since 1.0
  */
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use yii\widgets\Pjax;
 use yii\grid\GridView;
-use yii\widgets\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 use lajax\translatemanager\helpers\Language;
 use lajax\translatemanager\models\Language as Lang;
 

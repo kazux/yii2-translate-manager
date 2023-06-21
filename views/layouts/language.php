@@ -4,10 +4,10 @@
  *
  * @since 1.0
  */
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use yii\bootstrap4\Nav;
 use yii\bootstrap4\NavBar;
-use yii\widgets\Breadcrumbs;
+use yii\bootstrap4\Breadcrumbs;
 use lajax\translatemanager\bundles\TranslateManagerAsset;
 
 /*

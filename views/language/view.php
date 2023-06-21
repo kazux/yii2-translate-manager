@@ -4,7 +4,7 @@
  *
  * @since 1.3
  */
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */

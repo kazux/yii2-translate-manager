@@ -4,8 +4,8 @@
  *
  * @since 1.3
  */
-use yii\helpers\Html;
-use yii\widgets\ActiveForm;
+use yii\bootstrap4\Html;
+use yii\bootstrap4\ActiveForm;
 use lajax\translatemanager\models\Language;
 
 /* @var $this yii\web\View */

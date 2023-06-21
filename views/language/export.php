@@ -2,9 +2,9 @@
 
 use lajax\translatemanager\models\ExportForm;
 use lajax\translatemanager\models\Language;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 use yii\helpers\ArrayHelper;
-use yii\helpers\Html;
+use yii\bootstrap4\Html;
 use yii\web\Response;
 
 /* @var $this yii\web\View */
