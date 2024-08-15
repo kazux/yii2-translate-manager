@@ -30,13 +30,7 @@ TranslateManagerAsset::register($this);
         <?php $this->beginBody() ?>
         <div class="wrap">
             <?php
-            NavBar::begin([
-                'brandLabel' => 'Lajax TranslateManager',
-                'brandUrl' => Yii::$app->homeUrl,
-                'options' => [
-                    'class' => 'navbar-inverse navbar-fixed-top',
-                ],
-            ]);
+
             $menuItems = [
                 ['label' => Yii::t('language', 'Home'), 'url' => ['/']],
                 ['label' => Yii::t('language', 'Language'), 'items' => [
@@ -54,7 +48,6 @@ TranslateManagerAsset::register($this);
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => $menuItems,
             ]);
-            NavBar::end();
             ?>
 
             <div class="container">
